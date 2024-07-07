@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Salary Calculator</title>
+</head>
+<body>
+    <form id="salaryForm">
+        <input type="number"
+        id="basicSalary"
+        placeholder="Enter Your Salary Here"
+        required
+        >
+        <button type="submit">Submit</button>
+    </form>
+    <h3>Your Results</h3>
+    <div id="results">
+    <p id="grossSalary"></p>
+    <p id="payee"></p>
+    <p id="nhif"></p>
+    <p id="nssf"></p>
+    <p id="netSalary"></p>
+    </div>
+    
+</body>
+<script src="./tax.js"></script>
+</html>
